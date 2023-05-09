@@ -1,4 +1,4 @@
-@Library('reto1-shared-library') _
+@Library('Library1') _
 
 pipeline {
     agent any
