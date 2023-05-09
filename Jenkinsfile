@@ -6,7 +6,7 @@ pipeline {
         stage('Hello World-prueba') {
             steps {
                 script {
-                    SonarQube.hello(msn: "Mafe")
+                    sonarqube.hello(msn: "Mafe")
                 }
             }
         }
